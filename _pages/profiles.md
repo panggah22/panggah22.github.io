@@ -7,22 +7,20 @@ nav: true
 nav_order: 7
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    content: about.md
+    image_circular: false
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>PhD Candidate, Electrical Engineering</p>
+      <p>Chung-Ang University</p>
+      <p>Seoul, South Korea</p>
   - align: left
     image: prof_pic.jpg
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Professor, School of Electrical and Electronics Engineering</p>
+      <p>Chung-Ang University</p>
+      <p>Seoul, South Korea</p>
 ---

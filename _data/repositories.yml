@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - panggah22
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - panggah22/Carbon-OPF
+  - panggah22/DC-OPF
+  - panggah22/LAR
+  - panggah22/MNIST_Resnet18
+  - panggah22/User-Equilibrium-Solution
+  - panggah22/McCormick
+  - panggah22/PyKinect2
