@@ -8,4 +8,4 @@ rss_icon: true # comment this line to hide the RSS icon
 custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
   logo: https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/ieee.svg
   title: IEEE
-  url: https://ieeexplore.ieee.org/author/37089522776
+  url: https://ieeexplore.ieee.org/author/37088348286
