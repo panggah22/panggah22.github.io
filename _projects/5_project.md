@@ -10,6 +10,7 @@ category: work
 An open-source Python-based optimal power flow (OPF) tool that incorporates carbon emission attribution into traditional power flow optimization. This tool extends standard OPF formulations to account for the carbon intensity of generation resources.
 
 **Features:**
+
 - DC and AC optimal power flow formulations
 - Carbon emission flow tracking
 - Integration with standard test cases

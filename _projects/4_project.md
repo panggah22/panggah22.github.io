@@ -11,6 +11,7 @@ related_publications: true
 This project addresses carbon-aware scheduling and optimization in active power distribution systems. Using carbon emission flow theory and deep reinforcement learning, the framework jointly reduces peak power demand and carbon emissions while maintaining system reliability.
 
 **Key Contributions:**
+
 - Carbon emission flow modeling in distribution networks
 - Joint peak-carbon optimization objective
 - Deep reinforcement learning for dynamic scheduling

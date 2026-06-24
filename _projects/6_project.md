@@ -10,6 +10,7 @@ category: fun
 Implementation of the Frank-Wolfe algorithm to solve the User Equilibrium problem in urban traffic assignment. This project demonstrates optimization techniques applied to transportation networks.
 
 **Features:**
+
 - Frank-Wolfe algorithm implementation in Python
 - Traffic network modeling and visualization
 - Convergence analysis and performance benchmarking

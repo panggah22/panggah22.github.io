@@ -11,6 +11,7 @@ related_publications: true
 This project develops hierarchical Volt-VAR optimization frameworks for active distribution systems with high penetration of renewable energy and electric vehicles. The research addresses voltage control challenges by coordinating traditional grid devices with smart EV charging stations.
 
 **Key Contributions:**
+
 - Two-level hierarchical optimization architecture
 - Uncertainty modeling for PV generation and EV charging demand
 - Integration of smart inverter capabilities

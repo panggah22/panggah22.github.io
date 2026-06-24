@@ -36,6 +36,7 @@ Hi! I'm **Panggah Prabawa**, a PhD candidate in Electrical Engineering at [Chung
 My research focuses on the intersection of **power systems optimization**, **renewable energy integration**, and **machine learning** for smart grid applications. I develop mathematical models and data-driven algorithms to address challenges in modern distribution networks.
 
 **Key areas:**
+
 - Volt-VAR optimization in active distribution systems
 - Service restoration using multi-agent frameworks
 - Deep reinforcement learning for energy management
