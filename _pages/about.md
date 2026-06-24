@@ -29,6 +29,8 @@ latest_posts:
 
 Hi! I'm **Panggah Prabawa**, a PhD candidate in Electrical Engineering at [Chung-Ang University](https://www.cau.ac.kr/) in Seoul, South Korea. I work under the supervision of Prof. Dae-Hyun Choi in the Power Systems and Energy Optimization Laboratory.
 
+📊 **Research Impact:** 158+ citations, h-index of 5, 6 journal publications.
+
 ## Research Interests
 
 My research focuses on the intersection of **power systems optimization**, **renewable energy integration**, and **machine learning** for smart grid applications. I develop mathematical models and data-driven algorithms to address challenges in modern distribution networks.
