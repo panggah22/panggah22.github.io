@@ -10,15 +10,13 @@
 @use "sass:color";
 
 :root {
-  --global-theme-color: #{v.$purple-color};         /* #2d7d46 */
+  --global-theme-color: #{v.$purple-color}; /* #2d7d46 */
   --global-hover-color: #{color.adjust(v.$purple-color, $lightness: -8%)};
   --global-hover-text-color: #{v.$white-color};
-
-  /* Keep other light-mode variables as-is from the gem */
 }
 
 html[data-theme="dark"] {
-  --global-theme-color: #{v.$cyan-color};           /* #4ade80 */
+  --global-theme-color: #{v.$cyan-color}; /* #4ade80 */
   --global-hover-color: #{color.adjust(v.$cyan-color, $lightness: -10%)};
   --global-hover-text-color: #{v.$black-color};
 }

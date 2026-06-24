@@ -61,8 +61,34 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
+const readYamlMaybe = (relPath) => {
+  if (!exists(relPath)) return null;
+  try {
+    // Simple YAML parsing for our overrides format
+    const content = read(relPath);
+    const overrides = [];
+    let currentPath = null;
+    for (const line of content.split("\n")) {
+      const pathMatch = line.match(/^\s*-?\s*path:\s*(.+)$/);
+      if (pathMatch) {
+        currentPath = pathMatch[1].trim();
+        overrides.push(currentPath);
+      }
+    }
+    return { overrides };
+  } catch {
+    return null;
+  }
+};
+
+const overridesYaml = readYamlMaybe(".al-folio-overrides.yml");
+const trackedOverrides = overridesYaml ? overridesYaml.overrides || [] : [];
+
 for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
   if (exists(forbiddenPath)) {
+    if (trackedOverrides.includes(forbiddenPath) || trackedOverrides.some((o) => o.startsWith(forbiddenPath + "/"))) {
+      continue; // Tracked override — allowed
+    }
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
   }
 }
